@@ -1,0 +1,293 @@
+body{
+    font-family: 'Open Sans', sans-serif;    
+    font-weight: 400;
+    background-color: rgba(229, 164, 79, 0.3);
+}
+p{
+    font-size: 1.1em;
+}
+button {
+    color: #fff;
+    background-color: #fb5849;
+    padding: 0.5em 1em;
+    width: max-content;
+    border: none;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+a[href^="tel:"] {
+    color: #000;
+    text-decoration: none;
+}
+
+/* NavBar */
+.nav-link {
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.navbar-custom {
+    background-color: #ffb53d;
+}
+
+nav a:link{ color: #000000; }
+nav a:visited{ color: #000000; }
+
+/* Home Page Hero */
+.homehero {
+    padding: 8em;
+    width: 100%;
+}
+#homeheroimage {
+    height: 525px;
+    background-image: url(photos/noahs-knight-5aCcwPXe5l0-unsplash.jpg);
+    background-position-y:center;
+    background-position-x:center;
+    background-size: cover;
+}
+
+.hero {
+    padding: 3em;
+    width: 100%;
+}
+
+#headingimage {
+    height: 10em;
+    background-image: url(photos/noahs-knight-5aCcwPXe5l0-unsplash.jpg);
+    background-position-y:center;
+    background-position-x:center;
+    background-size: cover;
+    }
+.mask{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+}
+
+.r1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 500;
+    color: white;
+}
+
+
+.homeintros img{
+    width:700px; 
+    max-width:100%; 
+    height: 350px; 
+    object-fit: cover; 
+    object-position: 50% 50%;
+}
+.homedesc{
+    line-height: 2em;
+}
+iframe{
+    width:600px;
+    max-width:100%; 
+    height:450px; 
+    border:0;
+}
+.hoursdesc{
+    line-height: 2em;
+    padding:2.5em;
+}
+.gallery img{
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 26em;
+    width: 100%;
+    height: auto;
+    object-position: 50% 50%;
+}
+/* Footer */
+footer {
+    padding: 1em;
+    background-color: #ffb53d;
+    /* background-color: #FFC847; */
+}
+
+footer .left ul li {
+    display: inline-block;
+    margin-top:1.7em;
+}
+      
+footer .left ul li a {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    background-color: #fb5849;
+    border-radius: 50%;
+    color: #fff;
+}
+
+footer .left ul li a:hover {
+    opacity: .8;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+footer .right p {
+    margin-top: 2em;
+    padding-right: 2em;
+    color: #000;
+    font-size: 1em;
+    text-align: right;
+}
+
+/* Height for devices smaller than 992px */
+@media (max-width: 992px) {
+    .homehero{
+        padding:5em;
+    }
+    #homeheroimage {
+        height: 400px;
+    }
+    .r1{
+        font-size: 2.7em;
+    }
+    footer .left {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-right: 2em;
+    }
+    footer .right p {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+#reservation h1 {
+    margin: 1em 0 ;
+    color: #fff;
+}
+
+#reservation h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 1em;
+}
+#reservation p {
+    color: #fff;
+    margin-bottom: 4em;
+}
+#hours {
+    padding: 2em;
+    color:black;
+}
+.location{
+    padding:1em;
+}
+#reservation {
+    padding: 2em;
+    background-image: url("photos/Untitled design.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#thankyou {
+    padding: 2em;
+    background-image: url("photos/Untitled design.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30em;
+    color:white;
+}
+#thankyou h2{
+    padding: 1em;
+}
+.phone,.message {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 2em;
+    
+    margin-bottom:2em;
+}
+
+.phone i,.message i {
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    text-align: center;
+    line-height: 3em;
+    color: #fff;
+    background-color: #fb5849;
+    border-radius: 50%;
+    font-size: 1.2em;
+    margin-top: -1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.phone a, .message a{
+    color:black;
+}
+
+.contact-form {
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#contact h2 {
+text-align: center;
+font-weight: 500;
+
+color: #000;
+margin-bottom: 1em;
+}
+
+input, textarea{
+    color: #000;
+    font-size: .9em;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 2.5em;
+    border-radius: 5px;
+    outline: none;
+    padding:1em;
+    margin-bottom: 1em;
+}
+
+input:focus, textarea:focus{
+    border-color: #fb5849;
+}
+
+.contact-form textarea {
+    height: 8em;
+    resize: none;
+    padding: 1em;
+}
+.contact-form button {
+    width: 100%;
+}
+
+
+
+
