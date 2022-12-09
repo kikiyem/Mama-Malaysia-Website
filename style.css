@@ -135,13 +135,8 @@ iframe{
     padding:.3em;
 }
 .gallery img{
-    object-fit: cover;
-    max-height: 300px;
     max-width: 26em;
     width: 100%;
-    height: auto;
-    object-position: 50% 50%;
-    padding:.3em;
 }
 /* Footer */
 footer {
@@ -202,6 +197,13 @@ footer .right p {
     footer .right p {
         text-align: center;
         margin-top: 30px;
+    }
+    .gallery img{
+        height: 300px;
+        object-fit: cover; 
+        object-position: 50% 50%;
+        padding:.3em;
+        }
     }
 }
 
