@@ -1,2 +1,2 @@
 # Mama Malaysia Website
- Web Project for a fictional malaysian restaurant
+ Web Project for a fictional malaysian restaurant using Bootstrap.

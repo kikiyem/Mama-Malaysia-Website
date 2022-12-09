@@ -1,3 +1,6 @@
+.active{
+    border-bottom-style: solid;
+}
 body{
     font-family: 'Open Sans', sans-serif;    
     font-weight: 400;
@@ -54,7 +57,7 @@ nav a:visited{ color: #000000; }
 }
 #homeheroimage {
     height: 525px;
-    background-image: url(photos/noahs-knight-5aCcwPXe5l0-unsplash.jpg);
+    background-image: url(photos/m2ty-hero.webp);
     background-position-y:center;
     background-position-x:center;
     background-size: cover;
@@ -67,13 +70,13 @@ nav a:visited{ color: #000000; }
 
 #headingimage {
     height: 10em;
-    background-image: url(photos/noahs-knight-5aCcwPXe5l0-unsplash.jpg);
+    background-image: url(photos/m2ty-hero.webp);
     background-position-y:center;
     background-position-x:center;
     background-size: cover;
     }
 .mask{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
     width: 100%;
 }
@@ -106,6 +109,31 @@ iframe{
     line-height: 2em;
     padding:2.5em;
 }
+.gallery h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 500;
+    color: black;
+    padding: .5em;
+    padding-top:.7em;
+}
+.about h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 500;
+    color: black;
+    padding: .5em;
+    padding-top:.7em;
+}
+.about img{
+    object-fit: contain;
+    max-height: 300px;
+    max-width: 26em;
+    width: 100%;
+    height: auto;
+    object-position: 50% 50%;
+    padding:.3em;
+}
 .gallery img{
     object-fit: cover;
     max-height: 300px;
@@ -113,6 +141,7 @@ iframe{
     width: 100%;
     height: auto;
     object-position: 50% 50%;
+    padding:.3em;
 }
 /* Footer */
 footer {
@@ -202,14 +231,14 @@ footer .right p {
 }
 #reservation {
     padding: 2em;
-    background-image: url("photos/Untitled design.png");
+    background-image: url("photos/maskedbackground.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #thankyou {
     padding: 2em;
-    background-image: url("photos/Untitled design.png");
+    background-image: url("photos/maskedbackground.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,3 +320,14 @@ input:focus, textarea:focus{
 
 
 
+.card{
+    text-align: center;
+    width: 18em;
+    margin:.5em 0;
+}
+
+#menu img{
+    height:11em;
+    object-fit: cover; 
+    object-position: 50% 50%;
+}
