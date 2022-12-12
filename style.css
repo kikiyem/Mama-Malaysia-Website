@@ -136,6 +136,15 @@ nav a:visited{ color: #000000; }
     padding:2em;
 
 }
+.borders{
+    border-style: solid;
+    border-color: #ffb53d;
+    border-width: .3em;
+    height: 350px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
 .aboutdesc{
     position: relative;
     z-index: 99;
